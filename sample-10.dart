@@ -16,10 +16,26 @@ class Person {
    
   // Named Constructors
   Person._internal(this.name);
+
+  Person.hoge(this.name);
+
+  Person.tarou()
+    : name = "tarou";
 }
 
 void main(){
   final person = new Person("ss");
+  person.putsName();
+
   final person2 = new Person("ss");
-   print(person == person2);
+  person2.putsName();
+
+  final person3 = new Person.hoge("tarou");
+  person3.putsName();
+
+  final person4 = new Person.tarou();
+  person4.putsName();
+
+  print(person == person2);
+  print(person3 == person4);
 }
