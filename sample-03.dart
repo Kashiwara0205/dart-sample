@@ -43,4 +43,6 @@ main(){
   event3.pustMax();
   // can accesse within the same library 
   event3._privateMethod();
+  print(event3.name);
+  print(event3._status);
 }
