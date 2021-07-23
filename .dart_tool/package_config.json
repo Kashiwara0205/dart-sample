@@ -1,0 +1,20 @@
+{
+  "configVersion": 2,
+  "packages": [
+    {
+      "name": "collection",
+      "rootUri": "file:///home/kashiwara/.pub-cache/hosted/pub.dartlang.org/collection-1.15.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "sample",
+      "rootUri": "../",
+      "packageUri": "lib/",
+      "languageVersion": "2.10"
+    }
+  ],
+  "generated": "2021-07-23T04:13:51.618046Z",
+  "generator": "pub",
+  "generatorVersion": "2.14.0-343.0.dev"
+}
